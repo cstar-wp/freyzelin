@@ -20,7 +20,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="special-description"></div>
+                    <div class="special-description">Unsere Produkte sind langlebig, reparierbar & zeitlos. Wir fertigen unsere Produkte so, dass sie mit den Prinzipien einer Kreislaufwirtschaft in Einklang stehen. Einer die Nutzen für Wirtschaft, Gesellschaft und Umwelt bietet.</div>
                 </div>
                 
                 <div class="special-item">
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="special-description"></div>
+                    <div class="special-description">Unsere Produkte sind langlebig, reparierbar & zeitlos. Wir fertigen unsere Produkte so, dass sie mit den Prinzipien einer Kreislaufwirtschaft in Einklang stehen. Einer die Nutzen für Wirtschaft, Gesellschaft und Umwelt bietet.</div>
                 </div>
                 
                 <div class="special-item">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="special-description"></div>
+                    <div class="special-description">Unsere Produkte sind langlebig, reparierbar & zeitlos. Wir fertigen unsere Produkte so, dass sie mit den Prinzipien einer Kreislaufwirtschaft in Einklang stehen. Einer die Nutzen für Wirtschaft, Gesellschaft und Umwelt bietet.</div>
                 </div>
             </div>
         </div>

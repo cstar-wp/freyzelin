@@ -56,7 +56,7 @@
                 .bg-ym {    
                     width: 100%;
                     height: 400%;
-                    transform: rotate(-35deg) translate(20%, -20%);
+                    transform: rotate(-35deg) translate(24%, -20%);
                 }
                 .bg-tl {
                     height: 100%;
@@ -67,7 +67,7 @@
         }
     }
 
-    
+
     /* SECTION CONTENTS */
     section {
         // height: 70vh;
@@ -211,7 +211,7 @@
                     
                     .special-card {
                         position: relative;
-                        transition: transform .1s ease;
+                        transition: transform .05s ease;
                         
                         img.background {
                             width: 100%;
@@ -236,25 +236,70 @@
                                 margin-top: 15px;
 
                                 img {
-                                    margin-left: 10px;
-                                    height: 55px;
+                                    margin-left: 20px;
+                                    height: 50px;
                                     float: left;
+                                    margin-right: 10px;
                                 }
 
+                                h4 {
+                                    padding-top: 12px;
+                                    padding-left: 10px;
+                                    line-height:25px;
+                                    font-size: 20px;
+
+                                }
                             }
-                        }
+                        } 
 
                         &:hover {
-                            transform: scale(1.01);
+                            transform: scale(1.005);
                         }
                     }
 
+                    .special-description {
+                        margin-top: 30px;
+                        font-size: 14px;
+                        font-style: italic;
+
+                        &:before {
+                            content: '';
+                            display: block;
+                            margin: 10px 0;
+                            width: 50%;
+                            height: 15px;
+                            background-color: white;
+                        }
+                    }
                 }
             }
         }
     
         &.blog {
-            height: 60vh;
+            .fz-blog-text {
+                font-style: italic;
+                padding: 15px 10px;
+                font-size: 14px;
+                margin: 20px 0;
+            }
+
+            .blog-images {
+                width: calc(100% + 60px);
+                position: relative;
+                left: -30px;
+                padding: 30px 50px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                margin-bottom: 20px;
+                background-color: rgba(255,255,255,.5);
+
+                img {
+                    width: 15.5%;
+                    height: 100%;
+                }
+            }
         }
     }
 }
