@@ -1,0 +1,51 @@
+.fz-wrapper {
+    position: relative;
+    min-height: 100px;
+    height: 100%;
+    width: 100%;
+    margin: auto!important;
+
+    .fz-bg {
+        margin: 10px;
+        position: absolute;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        z-index: 1; 
+
+        overflow: hidden;
+        // border: 1px solid green; 
+
+        .bg {
+            position: absolute;
+            transform-origin: center;
+            top: 0;
+            left: 0;
+        }
+
+        .bg-main { background-color: $base-yellow }
+        .bg-secondary { background-color: $secondary-yellow }
+        .bg-transp { background-color: rgba(255,255,255,.45) }
+    }
+
+    .fz-content {
+        width: 100%;
+        position: relative;
+        padding: 15px 20px;
+        z-index: 2;
+    }
+}
+
+.fz-primary-button {
+    background-color: $base-black;
+    color: $base-yellow;
+    border: none;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+
+    &:hover {
+        background-color: lighten($base-black, 3%)
+    }
+}
