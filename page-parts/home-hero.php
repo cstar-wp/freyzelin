@@ -9,14 +9,12 @@
             <div class="col-lg-7 col-md-12 video-section">
                 <iframe id="video-resize" src="https://www.youtube.com/embed/6v2L2UGZJAM?autoplay=0&showinfo=0&controls=1&mute=1" frameborder="0"></iframe>
                 <script>
-window.addEventListener('load', function() {
-const setVideoHeight = function() {
-    let video = document.getElementById('video-resize');
-    video.style.height = (video.offsetWidth / 1.7785).toString() + 'px'
-}            
-setVideoHeight();
-window.addEventListener('resize', setVideoHeight);
-});
+                    const setVideoHeight = function() {
+                        let video = document.getElementById('video-resize');
+                        video.style.height = (video.offsetWidth / 1.7785).toString() + 'px'
+                    }            
+                    setVideoHeight();
+                    window.addEventListener('resize', setVideoHeight);
                 </script>
                 <div class="video-text">Dipl. Ing. Jan Karlsson & Dipl. Ing Lucas Hammerer.</div>
             </div>
