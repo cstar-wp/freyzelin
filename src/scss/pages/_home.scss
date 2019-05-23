@@ -199,8 +199,6 @@
         }
     
         &.special { 
-            height: 60vh;
-
             .specials { 
                 display: flex;
                 flex-direction: row;
@@ -231,7 +229,7 @@
                                 position: relative;
                                 top: 6px;
                                 left: calc(50% + 2px);
-                                 transform: translateX(-50%);
+                                transform: translateX(-50%);
                             }
 
                             div {
@@ -240,6 +238,7 @@
                                 img {
                                     margin-left: 10px;
                                     height: 55px;
+                                    float: left;
                                 }
 
                             }
