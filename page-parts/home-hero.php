@@ -6,13 +6,13 @@
             <div class="bg bg-transp bg-tl"></div>
         </div>
         <div class="fz-content row">
-            <div class="col-md-7 video-section">
+            <div class="col-lg-7 col-md-12 video-section">
                 <iframe id="video-resize" src="https://www.youtube.com/embed/6v2L2UGZJAM?autoplay=0&showinfo=0&controls=1&mute=1" frameborder="0"></iframe>
                 <script>
 window.addEventListener('load', function() {
 const setVideoHeight = function() {
     let video = document.getElementById('video-resize');
-    video.style.minHeight = (video.offsetWidth / 1.7785).toString() + 'px'
+    video.style.height = (video.offsetWidth / 1.7785).toString() + 'px'
 }            
 setVideoHeight();
 window.addEventListener('resize', setVideoHeight);
@@ -21,7 +21,7 @@ window.addEventListener('resize', setVideoHeight);
                 <div class="video-text">Dipl. Ing. Jan Karlsson & Dipl. Ing Lucas Hammerer.</div>
             </div>
 
-            <div class="col-md-4 contact-form">
+            <div class="col-lg-5 col-md-12 contact-form">
                 <form action="" id="contact">
                     <img class="contact" src="<?= get_template_directory_uri() ?>/dist/images/icons/envelope.png" alt="envelope">
                     <label for="in-email">Subscribe to Our Newsletter.</label>

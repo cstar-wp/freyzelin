@@ -32,6 +32,10 @@
         position: relative;
         padding: 15px 20px;
         z-index: 2;
+
+        @media (max-width: 991px) {
+            padding: 10px;
+        }
     }
 }
 
