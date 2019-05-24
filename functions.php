@@ -18,6 +18,9 @@ function requireFilesDirLoop($path ) {
     }
 }
 
+require_once __DIR__ . '/functions/bs4navwalker.php';
+require_once __DIR__ . '/functions/enqueue_assets.php';
+
 function startRecursiveRequering() {
     $path = dirname(__FILE__) . '/functions/';
     requireFilesDirLoop($path);
