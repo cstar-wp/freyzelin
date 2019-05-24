@@ -52,4 +52,8 @@
     &:hover {
         background-color: lighten($base-black, 3%)
     }
+} 
+
+.container-fluid { 
+    max-width: 1700px;
 }
